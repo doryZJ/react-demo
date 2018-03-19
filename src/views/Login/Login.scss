@@ -1,0 +1,39 @@
+.login-view {
+  height: 100%;
+  display: flex;
+
+  .left,
+  .right {
+    flex: 1;
+  }
+
+  .left {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .right {
+    .login-wrapper {
+      // width: 360px;
+      margin: 200px 187px 0 173px;
+
+      .logo {
+        width: 156px;
+        height: 48px;
+        margin-bottom: 132px;
+      }
+
+      .label {
+        font-size: 24px;
+        color: #3b3a42;
+        margin-bottom: 30px;
+      }
+
+      .login-form-button {
+        width: 100%;
+      }
+    }
+  }
+}
