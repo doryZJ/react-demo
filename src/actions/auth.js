@@ -6,6 +6,7 @@ const setLoginStatus = (type, loginStatus) => ({type, loginStatus});
 
 const login = params => async (dispatch) => {
   try {
+    console.log('params', params)
     dispatch(setLoginStatus(LOGIN_REQUEST, 1));
     const response = await Api.login(params)
     const { code } = response
